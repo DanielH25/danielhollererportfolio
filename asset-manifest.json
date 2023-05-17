@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/danielhollererportfolio/static/css/main.073c9b0a.css",
+    "main.js": "/danielhollererportfolio/static/js/main.eb6abee7.js",
+    "static/js/787.fb771931.chunk.js": "/danielhollererportfolio/static/js/787.fb771931.chunk.js",
+    "static/media/logo.svg": "/danielhollererportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/danielhollererportfolio/index.html",
+    "main.073c9b0a.css.map": "/danielhollererportfolio/static/css/main.073c9b0a.css.map",
+    "main.eb6abee7.js.map": "/danielhollererportfolio/static/js/main.eb6abee7.js.map",
+    "787.fb771931.chunk.js.map": "/danielhollererportfolio/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.eb6abee7.js"
+  ]
+}
