@@ -33,7 +33,7 @@
   right: 30px;
   text-decoration: none;
   color: #fff;
-  
+
 }
 
 .icons-container a {
@@ -48,15 +48,16 @@
 }
 
 #contact-form {
+  position: fixed;
   max-width: 400px;
   /*margin: 0 auto;*/
-  
-  
+  bottom: 15px;
 }
+
 
 #contact-form label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #contact-form input,
@@ -65,7 +66,8 @@ textarea {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  
+  resize: none;
+  font-size: large;
 }
 
 #contact-form button {
