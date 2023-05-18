@@ -4,6 +4,8 @@ import DownloadButton from './components/DownloadButton/DownloadButton';
 import Header from './components/Header/Header';
 import Icons from './components/Icons/Icons';
 import ContactForm from './components/ContactForm/ContactForm';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Icons />
       <Header />
       <DownloadButton CV={CV} />
+      <About/>
+      <Projects/>
       <ContactForm/>
     </div >
   );

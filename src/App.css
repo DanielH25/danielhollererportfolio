@@ -48,9 +48,8 @@
 }
 
 #contact-form {
-  position: fixed;
   max-width: 400px;
-  /*margin: 0 auto;*/
+  margin-top: 15px;
   bottom: 15px;
 }
 
@@ -78,4 +77,9 @@ textarea {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+#project-section {
+  position: relative;
+  margin-bottom: 10px;
 }
