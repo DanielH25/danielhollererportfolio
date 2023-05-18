@@ -25,3 +25,22 @@
 #downloadButton:hover {
   background-color: #45a049;
 }
+
+.icons-container {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons-container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon {
+  color: white;
+  font-size: 36px;
+  margin-left: 15px;
+}
