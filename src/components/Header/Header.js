@@ -1,10 +1,10 @@
 export default function Header() {
 
     return (
-        <>
-            <h1>Daniel Hollerer</h1>
+        <div className="header-name-desc">
+            <h2>Daniel Hollerer</h2>
             <p>Personal Portfolio</p>
-        </>
+        </div>
 
     );
 

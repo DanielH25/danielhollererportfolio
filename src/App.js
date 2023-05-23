@@ -9,15 +9,26 @@ import Projects from './components/Projects/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <Icons />
-      <Header />
-      <DownloadButton CV={CV} />
-      <About/>
-      <Projects/>
-      <ContactForm/>
+    <div className="container">
+      <div className='slides'>
+        <Header />
+      </div>
+      <div className='slides'>
+        <About />
+      </div>
+      <div className='slides'>
+        <Projects />
+      </div>
+      <div className='slides'>
+        <ContactForm />
+      </div>
     </div >
   );
 }
-
+//<Icons />
+//<Header />
+//<DownloadButton CV={CV} />
+//<About />
+//<Projects />
+//<ContactForm />
 export default App;
