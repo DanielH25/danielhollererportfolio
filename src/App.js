@@ -8,10 +8,12 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Navbar from './components/Navbar/Navbar';
 
+//
 function App() {
   return (
     <div className="container">
       <Icons />
+      
       <Navbar/>
       <div className='slides-header' id="home">
         <Header />
