@@ -6,21 +6,23 @@ import Icons from './components/Icons/Icons';
 import ContactForm from './components/ContactForm/ContactForm';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="container">
       <Icons />
-      <div className='slides-header'>
+      <Navbar/>
+      <div className='slides-header' id="home">
         <Header />
       </div>
-      <div className='slides-about'>
+      <div className='slides-about' id="about">
         <About />
       </div>
-      <div className='slides-projects'>
+      <div className='slides-projects' id="projects">
         <Projects />
       </div>
-      <div className='slides-contact'>
+      <div className='slides-contact' id="contact">
         <ContactForm />
       </div>
     </div >

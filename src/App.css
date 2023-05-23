@@ -24,6 +24,39 @@
 
 }
 
+nav {
+  
+  padding: 10px 0;
+  position: fixed;
+  left: 5%;
+  top: 5%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 5px;
+  padding: 10px 10px;
+}
+
+li:hover {
+  background-color: black;
+  
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
 .icons-container {
   position: fixed;
   right: 5%;

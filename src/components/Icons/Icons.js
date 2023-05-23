@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BsGithub } from 'react-icons/bs'
 import { SiGitlab } from 'react-icons/si'
 
@@ -12,5 +12,4 @@ export default function Icons() {
             </div>
         </>
     );
-
 };
