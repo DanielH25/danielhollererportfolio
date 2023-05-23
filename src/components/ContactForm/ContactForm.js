@@ -3,10 +3,11 @@ export default function ContactForm() {
 
     return (
         <>
-
-
+            
+            <h2>Contact Form</h2>
+            <div>
                 <form action="https://formsubmit.co/danielhollerer25@gmail.com" method="POST" id="contact-form">
-                <h2>Contact Form</h2>
+
                     <label htmlFor="email">
                         Email:
                         <input type="email" id="email" name="email" required />
@@ -23,6 +24,8 @@ export default function ContactForm() {
                     <button type="submit">Submit</button>
 
                 </form>
+            </div>
+
 
         </>
     );

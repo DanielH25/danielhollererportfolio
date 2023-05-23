@@ -10,6 +10,7 @@ import Projects from './components/Projects/Projects';
 function App() {
   return (
     <div className="container">
+      <Icons />
       <div className='slides-header'>
         <Header />
       </div>
