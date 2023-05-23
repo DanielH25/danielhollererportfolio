@@ -10,16 +10,16 @@ import Projects from './components/Projects/Projects';
 function App() {
   return (
     <div className="container">
-      <div className='slides'>
+      <div className='slides-header'>
         <Header />
       </div>
-      <div className='slides'>
+      <div className='slides-about'>
         <About />
       </div>
-      <div className='slides'>
+      <div className='slides-projects'>
         <Projects />
       </div>
-      <div className='slides'>
+      <div className='slides-contact'>
         <ContactForm />
       </div>
     </div >

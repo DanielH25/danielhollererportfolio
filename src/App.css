@@ -11,7 +11,7 @@
   scroll-snap-type: y mandatory;
 }
 
-.slides {
+.slides-header {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -21,9 +21,64 @@
   color: #fff;
   background: linear-gradient(454deg, #345343, #259);
   scroll-snap-align: start;
+  
 }
 
-.slides h2 {
+.slides-about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  color: #fff;
+  background: linear-gradient(454deg, #345343, #259);
+  scroll-snap-align: start;
+  flex-direction: column;
+
+}
+
+.slides-about h2 {
+  margin-top: 25%;
+}
+
+.slides-projects {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  color: #fff;
+  background: linear-gradient(454deg, #345343, #259);
+  scroll-snap-align: start;
+  flex-direction: column;
+
+}
+
+.slides-projects h2 {
+  margin-top: 25%;
+}
+
+.slides-contact {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  color: #fff;
+  background: linear-gradient(454deg, #345343, #259);
+  scroll-snap-align: start;
+  flex-direction: column;
+
+}
+
+.slides-contact h2 {
+  margin-top: 25%;
+}
+
+h2 {
   font-size: 70px;
   font-weight: 600;
   max-width: 650px;
