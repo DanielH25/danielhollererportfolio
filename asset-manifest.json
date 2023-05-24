@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/danielhollererportfolio/static/css/main.8886965c.css",
-    "main.js": "/danielhollererportfolio/static/js/main.8e93aa42.js",
+    "main.css": "/danielhollererportfolio/static/css/main.01847bee.css",
+    "main.js": "/danielhollererportfolio/static/js/main.5a8ac544.js",
     "static/js/787.fb771931.chunk.js": "/danielhollererportfolio/static/js/787.fb771931.chunk.js",
     "static/media/CV.pdf": "/danielhollererportfolio/static/media/CV.2e71f933b45fb2b7df09.pdf",
     "index.html": "/danielhollererportfolio/index.html",
-    "main.8886965c.css.map": "/danielhollererportfolio/static/css/main.8886965c.css.map",
-    "main.8e93aa42.js.map": "/danielhollererportfolio/static/js/main.8e93aa42.js.map",
+    "main.01847bee.css.map": "/danielhollererportfolio/static/css/main.01847bee.css.map",
+    "main.5a8ac544.js.map": "/danielhollererportfolio/static/js/main.5a8ac544.js.map",
     "787.fb771931.chunk.js.map": "/danielhollererportfolio/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8886965c.css",
-    "static/js/main.8e93aa42.js"
+    "static/css/main.01847bee.css",
+    "static/js/main.5a8ac544.js"
   ]
 }
