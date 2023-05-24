@@ -54,10 +54,9 @@ a {
   transition: color 0.3s ease;
 }
 
-
 .icon {
-  margin-left: 10px;
-
+  margin-left: 15px;
+  position: relative;
 }
 
 .icon a {
@@ -68,6 +67,42 @@ a {
 .icons-container .icon svg {
   width: 50px;
   height: 50px;
+}
+
+.icon::before,
+.icon::after {
+  --scale: 0;
+
+
+  position: absolute;
+  
+  left: 50%;
+  transform: translateX(-50%) translateY(100%) scale(var(--scale));
+  transition: 150ms transform;
+  transform-origin: top center;
+}
+
+.icon::before {
+  content: attr(tooltip-gh);
+  height: 50px;
+  width: 50px;
+  padding: .25rem;
+  border-radius: .3rem;
+  text-align: center;
+  width: max-content;
+  max-width: 100%;
+  background: #333;
+}
+
+.icon:hover::before,
+.icon:hover::after {
+  --scale: 1;
+}
+
+.icon::after {
+  content: "";
+  border: 10px solid transparent;
+  border-bottom: #333;
 }
 
 .slides-about {
@@ -197,6 +232,8 @@ h2 {
 #contact-form button:hover {
   background-color: #259;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   .slides-contact h2 {
