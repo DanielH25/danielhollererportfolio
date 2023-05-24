@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Icons from '../Icons/Icons';
 
 function Navbar() {
   const [activeSection, setActiveSection] = useState('home');
@@ -36,6 +37,11 @@ function Navbar() {
         <li className={activeSection === 'contact' ? 'active' : ''}>
           <a onClick={() => handleNavLinkClick('contact')} href="#contact">
             Contact
+          </a>
+        </li>
+        <li className={activeSection === 'contact' ? 'active' : ''}>
+          <a onClick={() => handleNavLinkClick('contact')} href="#contact">
+            <Icons/>
           </a>
         </li>
       </ul>

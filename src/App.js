@@ -12,8 +12,6 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <div className="container">
-      <Icons />
-      
       <Navbar/>
       <div className='slides-header' id="home">
         <Header />
