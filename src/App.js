@@ -12,7 +12,7 @@ import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <div className="container">
-      <Navbar/>
+      <Navbar CV={CV}/>
       <div className='slides-header' id="home">
         <Header />
       </div>
@@ -30,7 +30,7 @@ function App() {
 }
 //<Icons />
 //<Header />
-//<DownloadButton CV={CV} />
+//<DownloadButton  />
 //<About />
 //<Projects />
 //<ContactForm />

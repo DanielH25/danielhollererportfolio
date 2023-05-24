@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Icons from '../Icons/Icons';
 
-function Navbar() {
+function Navbar({ CV }) {
   const [activeSection, setActiveSection] = useState('home');
 
   const handleNavLinkClick = (section) => {
@@ -40,10 +40,11 @@ function Navbar() {
           </a>
         </li>
         <li className={activeSection === 'contact' ? 'active' : ''}>
-          <a onClick={() => handleNavLinkClick('contact')} href="#contact">
-            <Icons/>
+          <a href="#icons">
+            <Icons CV={CV}/>
           </a>
         </li>
+        
       </ul>
     </nav>
   );
